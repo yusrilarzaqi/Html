@@ -1,0 +1,189 @@
+/* Font */
+@font-face {
+   font-family: 'open_sansregular';
+   src: url('../font/OpenSans-Regular-webfont.woff') format('woff'),               
+}
+
+/* Style utama */
+body{
+   font: 16px/24px 'open_sansregular','Arial Narow',Arial,sans-serif;
+   background-color: #eee;
+   margin: 50px auto;
+}
+h1{
+   font-size: 80px;
+   text-align: center;
+   text-shadow: 1px 1px 10px #ddd;
+}
+.container{
+   width: 600px;
+   background-color: white;
+   margin: 40px auto;
+   padding: 30px;
+   box-shadow: 0 0 5px 3px rgba(0,0,0,.3);
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.gallery li{
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   border: 3px solid #666;
+   margin: 0 10px;
+   float: left;
+   position: relative;
+}
+
+.gallery li img{
+   border-radius: 50%;
+}
+
+.gallery li span{
+   background-color: #00000042;
+   width: 120px;
+   height: 120px;
+   display: block;
+   border-radius: 50%;
+   position: absolute;
+   top: 0;
+   text-align: center;
+   line-height: 120px;
+   color: #333;
+   text-shadow: 1px 1px 1px #ddd;
+   opacity: 0;
+   transform: scale(0) rotate(0);
+   transition: .3s;
+}
+
+.gallery li a:hover span{
+   opacity: 1;  
+   transform: scale(1) rotate(360deg);
+}
+
+.clear{
+   clear: both;
+}
+
+/* Overlay */
+.overlay{
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   right: 0;
+   background-color: rgba(0,0,0,0);
+   z-index: 9999;
+   transition: 1s;
+   text-align: center;
+   padding: 500px 0;
+}
+.overlay:target{
+   width: auto;
+   height: auto;
+   left: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,.8);
+}
+.overlay img{
+   max-height: 100%;
+}
+
+.overlay:target img{
+   animation: zoomDanFade 1s;
+}
+
+.overlay .close{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   overflow: hidden;
+   position: absolute;
+   top: 400px;
+   opacity: 1;
+}
+
+.overlay:target img .close{
+   animation: slideDownFade .5s 3s ease 1 alternate forwards running;
+}
+
+#gambar-4 img{
+   border-radius: 0
+}
+
+#gambar-4 .close{
+   border-radius: 50%;
+}
+
+/* navigasi */
+.next{
+   width: 128px;
+   height: 128px;
+   background-image: url('../img/next.png');
+   position: absolute;
+   top: 600px;
+   right: 120px;
+   text-indent: -9999;
+}
+
+.prev{
+   width: 128px;
+   height: 128px;
+   background-image: url('../img/back.png');
+   position: absolute;
+   top: 600px;
+   left: 120px;
+   text-indent: -999;
+   opacity: ;
+}
+.next:target,
+.prev:target{
+   animation: fade .5s 3s ease forwards ;
+}
+
+
+
+/* Animasi */
+@keyframes fade{
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+   }
+}
+
+@keyframes zoomDanFade{
+   
+   0%{
+      transform:scale(0);
+      opacity: 0;
+   }
+   100%{
+      transform: scale(1);
+      opacity: 1;
+   }
+}
+
+@keyframes slideDownFade{
+   0%{
+      opacity: 0;
+      margin-top: -50px;
+   }
+   100%{
+      opacity: 1;
+      margin-top: 0;
+   }
+}
+
+
+
+
+
+
+
+
+
+

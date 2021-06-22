@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>CLIPPING PATH</title>
+   <style type="text/css" media="all">
+      img{
+/*         clip-path: circle(400px);*/
+         clip-path: polygon(48% 51%, 7% 10%, 85% 19%, 20% 100%, 30% 42%, 29% 18%, 70% 25%, 56% 100%, 0 48%);
+      }
+      p{
+         font-family: Arial;
+         font-size: 60px;
+         text-align: center;
+         color: white;
+         background-image: url('/img/1.jpeg');
+         background-attachment: fixed;
+         webkit-text-fill-color: transparent;
+         background-clip: text;
+      }
+   </style>
+</head>
+<body>
+   <img src="/img/1.jpeg" alt="Kaguya" />
+   <p>Yusril Arzaqi</p>
+</body>
+</html>

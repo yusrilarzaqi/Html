@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Absolute</title>
+   <style type="text/css" media="all">
+      div{
+         height: 200px;
+         width: 200px;
+      }
+      .satu{
+         background-color: limegreen;
+      }
+      .dua{
+         background-color: royalblue;
+         /* Absolute artinya menambah 1 dimensi diatas flow normal tetapi elemnen nya sudah tidak dianggap lagi */
+         position: absolute;
+         top: 0;
+         right: 0;
+         left: 0;
+      }
+      .tiga{
+         background-color: crimson;
+      }
+      
+   </style>
+</head>
+<body>
+   
+   <div class="satu"></div>
+   <div class="dua"></div>
+   <div class="tiga"></div>
+   
+</body>
+</html>

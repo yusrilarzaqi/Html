@@ -1,0 +1,34 @@
+/*link saat belum tersentuh*/
+.hello:link{
+	color: orange;
+}
+/*link saat diarahkan*/
+.hello:hover{
+	color: green;
+	font-family: arial;
+	font-size: 50px;
+}
+/*link saat ditekan*/
+.hello:active{
+	font-style: italic;	
+}
+/*link yang sudah pernah dikunjungi*/
+.hello:visited{
+	color: red;
+}
+/*frist-child anak pertama dari tag "li"*/
+/*last-child anak terakhir dari tag "li"*/
+/*nth-child anak(ke-n) dari tag "li"*/
+/*nth bisa kelipatan (2n)atau(2n-1)*/
+/*nth bisa gunakan even(genap) ganjil(genap)*/
+li:nth-child(even) a{
+	color: green;
+}
+li:nth-child(odd) a:hover{
+	color: pink;
+}  
+ /*paragraf terakhir yang dipilih*/
+p:last-of-type{
+	color: red;
+}
+

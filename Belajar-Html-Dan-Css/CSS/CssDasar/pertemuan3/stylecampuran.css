@@ -1,0 +1,12 @@
+body{
+	background-color: #77FEFF;
+	background-image: url(../images/susanuomadara.jpg);
+	/*background-repeat ada ;reapeat-y(vertikal),repeat-x(horizontal),no-repeat(tidak mengulangi)*/
+	/*jika tidak ditambahkan akan automatis dikiri*/
+	background-repeat: no-repeat;
+	/*center,left,right*/
+	background-position: center;
+	/*background shorthand(singkatan)
+	background:(color) (url) (position (repeat));
+	*/
+}

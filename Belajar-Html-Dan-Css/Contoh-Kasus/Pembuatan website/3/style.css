@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Memulai Dari Sini*/
+
+body{
+
+  background-image: url('bg1.png');
+  font-family: 16px/28px  Arial, Sans-Serif;
+  color: #333;
+  height: 2000cm;
+}
+.top-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background: #F0F8FF;
+	z-index: 9999;
+}
+.top-bar h1{
+	font-size: 40px;
+	text-align: center;
+	color: #A52A2A;
+}
+
+.container{
+	  margin: 50px auto;
+  	width: 960px;
+  	background-color: #fff;
+  	position: relative;
+}
+.facebook{
+	width: 80px;
+	height: 100px;
+	background-image: url(fb.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position:absolute;
+	right: 0; 
+	top: 0;
+
+}
+
+.header{
+  padding: 20px;
+}
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header a{
+	text-decoration: none;
+	color: coral;
+	padding: 3px;
+}
+.header a:hover{
+	background-color: crimson;
+	color: white;
+}
+.hero{
+	height: 320px;
+	background-image: url('image.jpg');
+	background-size: cover;
+	background-position: 0 -145px;
+	border-top: 5px solid crimson;
+	border-bottom: 5px solid black;
+}
+.main{
+	padding: 20px;
+	width: 600px;
+  float: left;
+}
+
+.main h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .penulis{
+	font-size: 16px;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+.main .penulis a{
+	text-decoration: none;
+	color: coral;
+	padding-bottom: 10px;
+	
+}
+.mian a:hover{
+	background-color: crimson;
+	color: white;
+
+}
+.main p{
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+
+/* Sidebar */
+.sidebar{
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 20px;
+  float: right;
+  padding-bottom: 10px;
+}
+.sidebar img{
+  height: 70px;
+  width: 70px;
+  float: left;
+  padding-right: 10px
+  ;
+}
+.sidebar p{
+  font: 12px/18px Arial;
+}
+
+.footer{
+	background: black;
+}
+
+.footer .copy{
+	font-size: 20px;
+	color: #eaeaea;
+	text-align: center;
+	padding: 2px;
+}
+
+/* MAXRO CLEARFIX*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

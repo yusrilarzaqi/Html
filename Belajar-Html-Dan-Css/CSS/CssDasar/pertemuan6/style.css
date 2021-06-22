@@ -1,0 +1,9 @@
+body{
+    font-family: arial, serif;
+    color:green;
+    
+}
+/*inherit dilakukan jika anak dari tidak mau mewarisi dari parent*/
+a{
+        color: green;
+}

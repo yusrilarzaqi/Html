@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan 1</title>
+	<style>
+
+
+
+		div{
+			width: 200px;
+			height: 200px;
+			background-color: Cyan;
+			animation:animasiKotak 2s ease 4 alternate forwards running;
+		}
+		
+		/* [name] [duration] [timing-function] [delay] [interation-count] [direction] [fill-mode] [play-state] */
+
+		@keyframes animasiKotak {
+			0%{
+				width: 200px;
+			}
+
+			50%{
+				width: 500px;
+				height: 200px;
+			}
+
+			100%{
+				width: 500px;
+				height: 500px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="kotak"></div>
+</body>
+</html>

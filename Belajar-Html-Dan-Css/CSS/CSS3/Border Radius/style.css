@@ -1,0 +1,34 @@
+.container{
+   width: 800px;
+   border: 3px solid black;
+   margin: 80px auto;
+   padding: 10px;
+   position: relative;
+}
+.satu, .dua {
+   width: 200px;
+   height: 200px;
+}
+.satu{
+   background-color: #86d4e8;
+   /* Jika tidak ditulis spesifikasinya maka semuanya akan menjadi tumpul */   
+   border-radius: 50%;
+   margin: 90px auto;
+}
+.dua{
+   background-color: #f88d14;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+   margin: 90px auto;
+}
+.tiga{
+   background-color: navy;
+   width: 50px;
+   height: 50px;
+   border: 5px solid white;
+   /* Short hand */
+   border-radius: 25px 0 25px 0;
+   position: absolute;
+   top: -25px;
+   right: -25px;
+}

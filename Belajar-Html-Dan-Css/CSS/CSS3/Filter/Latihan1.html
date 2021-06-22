@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			body{
+				text-align: center;
+			}
+			/* Blur (px) */
+			/* Brightness (%)(angka) */ 
+			/* Contrast (%) (angka */
+			/* Saturate (%) (angka) */
+			/* Grayscale (%) (angka) */
+			/* Sepia (%) (angka) */
+			/* hue-rotate (deg) */
+			/* invert (%) (angka) */
+			/* opacity (%) (angka) */
+			/* drop-shadow (sama seperti box shadow */
+			
+				/* Contoh Penggunaan */
+
+				/*filter: blur(10px);*/
+				
+				/*filter: brightness(120%);*/
+				
+				/*filter: contrast(140%);*/
+				
+				/*filter: saturate(20%);*/
+				
+				/*filter: grayscale(100);*/
+				
+				/*filter: sepia(100%);*/
+				
+				/*filter: hue-rotate(190deg);*/
+				
+				/*filter: invert(1);*/
+				
+				/*filter: opacity(.6);*/
+
+				/*filter: drop-shadow(5px 5px 5px black);*/
+
+			img{
+				filter: blur(10px) grayscale(1);
+				transition: 1s;
+			}
+			img:hover{
+				filter: blur(0) grayscale(0);
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<img src="computers.png" alt="Komputer">
+
+		<h1>Hello world !</h1>
+
+	</body>
+</html>

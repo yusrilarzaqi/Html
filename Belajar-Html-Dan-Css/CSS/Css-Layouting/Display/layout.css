@@ -1,0 +1,45 @@
+.container{
+  background-color: silver;
+  width: 600px;
+
+}
+.judul{
+  background-color: lightgrey;
+  color: blue;
+}
+.main{
+  background-color: skyblue;
+}
+#mainhtml,#maincss{
+  color: black
+}
+
+#judullink{
+  color: red;
+}
+.judulhtml,.judulcss{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.link{
+  background-color: lightgreen;
+}
+ul li {
+  display: inline-block;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+body{
+  font-family: arial;
+}
+#html,#css{
+  width: 100%;
+}
+.copyright{
+  color: white;
+  background-color: black;
+}

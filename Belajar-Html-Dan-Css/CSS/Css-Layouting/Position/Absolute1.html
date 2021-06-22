@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Absolute</title>
+   <style type="text/css" media="all">
+      .container{
+         width: 500px;
+         margin: 80px auto;
+         border: 1px solid black;
+         position: relative;
+      }
+      .satu, .dua, .tiga{
+         width: 200px;
+         height: 200px;
+         
+      }
+      .satu{
+         background-color: limegreen;
+      }
+      .dua{
+         background-color: lightskyblue;
+         position: absolute;
+         /* Absolute akan mengikuti parent-nya yang sama sama non static */
+         top: 5px;
+         right: 5px;
+      }
+      .tiga{
+         background-color: crimson;
+      }
+      
+   </style>
+</head>
+<body>
+   <div class="container">
+      
+      <div class="satu"></div>
+      <div class="dua"></div>
+      <div class="tiga"></div>
+      
+   </div>
+</body>
+</html>

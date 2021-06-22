@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Latihan 3</title>
+      <style type="text/css" media="all">
+         .satu, .tiga {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            margin-bottom: 100px;
+         }
+         .dua, .empat{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+         }
+         .satu{
+            /* Jika ingin elemen parent-nya menjadi trasparan maka menggunakan (rgba)
+               Contoh:
+            */
+            /* (a) disi dengan opacity-nya */
+            background-color: rgba(0,0,255,0.7) ;
+         }
+         .dua{
+            background-color: #000;
+         }
+         .tiga{
+            background-color: red;
+         }
+         .empat{
+            /* bisa juga menggunakan hsl */
+            background-color: hsl(1,50%,50%);
+         }
+      </style>
+   </head>
+   <body>
+      
+      <div class="satu">
+         <div class="dua"></div>
+      </div>
+      
+      <div class="tiga">
+         <div class="empat"></div>
+      </div>
+      
+      
+   </body>
+</html>

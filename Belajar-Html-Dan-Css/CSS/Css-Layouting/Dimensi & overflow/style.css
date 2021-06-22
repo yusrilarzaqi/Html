@@ -1,0 +1,11 @@
+/*Jika tidak ditulis overflownya akan secara default akan memilih visible*/
+.satu{
+  background-color: #6fcfe7;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+}
+.dua{
+  background-color: black;
+  color: white;
+}

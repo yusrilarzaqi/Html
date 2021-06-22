@@ -1,0 +1,22 @@
+h1{
+	/*color bisa menggunakan nama warna,hexadecimal,dan rgb*/
+	color: red;
+	/*digunakan sebagai	mengatur format paragraf/text (left,right,center,justify)*/
+	text-align: center;
+	/*digunakan untuk memberikan dekorasi pada text/paragraf (none,underline,overline,line-trough)*/
+	text-decoration: overline;
+	/*digunakan untuk mengubah ukuran spasi pada huruf/angka */
+	letter-spacing: 50px;
+}
+p{
+	/*digunakan untuk text menjorok kedalam*/
+	text-indent: 50px;
+	/*memaksa tulisan menjadi ;none,lowercase,uppercase,capilaize*/
+	text-transform:lowercase; 
+	/*digunakan untuk mengubah ukuran spasi pada kata*/	
+	word-spacing: 25px;
+}
+a{
+	/*bisa digunakan untuk menghilangkan dekorasi pada text*/
+	text-decoration: none;
+}

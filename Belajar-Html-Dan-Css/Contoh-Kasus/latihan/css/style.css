@@ -1,0 +1,132 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Style utama */
+body{
+  
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background-color: #f1f1f1;
+   position: fixed;
+   overflow: auto;
+   top: 0;
+   display: flex;
+   justify-content: center;
+}
+li a{
+   display: inline-block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover{
+   background-color: #555;
+   color: white;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+section{
+   min-height: 750px;
+}
+/*  home */
+.home {
+   width: 100%;
+   min-height: 80px;
+   margin: 50px auto;
+   text-align: center;
+}
+
+.home h1{
+   text-shadow: 1px 1px 3px black;
+   font-size: 32px;
+}
+
+hr{
+   width: 260px;
+   border-top: 1px solid #00000048;
+}
+
+/* Html */
+.html{
+   background-color: aliceblue;
+   padding-top: 20px;
+}
+.html .container h3 {
+   font-size: 24px;
+   text-align: center;
+}
+.html .container h4{
+   text-indent: 65px;
+   font-size: 20px;
+}
+.html .container p{
+   font-size: 16px;
+   text-indent: 20px;
+   word-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+

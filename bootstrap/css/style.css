@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* jumbotron */
+.jumbotron{
+    max-height: 600px;    
+    color: whitesmoke;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    filter: blur(2px) ;
+    transition: all 500ms;
+}
+.jumbotron img{
+    filter: blur(0);
+}
+/* .jumbotron:hover{    
+    filter: opacity(1) blur(0) grayscale(0);
+} */
+.jumbotron img{
+    width: 350px;
+    border-radius: 20px 0; 
+    filter: drop-shadow(1px 1px 3px gray);   
+}
+hr{
+    border: 1.1px solid rgba(131, 131, 131, 0.7);
+}
+/* about */
+.about{
+    margin-top: 100px;
+}
+.about p{
+    margin-top: 20px;
+    text-indent: 50px;
+}

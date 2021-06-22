@@ -1,0 +1,30 @@
+body{
+	font-family: TimesNewRoman;
+}
+/*pengabungan dengan koma(,)*/
+h1,h2{
+	color: #999999;
+}
+/*didalam ;a didalam tag'li' didalam 'ul'*/
+ul li a {
+	color: orange;
+}
+ol li a {
+	color: black;
+}
+/*id dengan "#"*/
+#x1{
+	color: orange
+}
+/*class dengan "."*/
+/*1tag bisa mempunyai 2atau lebih class*/
+.x2{
+	color: blue;
+}
+.cetak-tebal{
+	font-style: italic;
+}
+/*bisa lebih spesifik */
+p.cetak-tebal{
+	font-size: 24px;
+}

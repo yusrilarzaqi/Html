@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Portfolio</title>
+   <style type="text/css" media="all">
+      *{
+         margin: 0;
+         padding: 0;
+      }
+      body{
+         background-color: #ddd;
+         font-family: Arial,Sans-Serif;
+         font-size: 20px;
+      }
+      .about{
+         width: 100%;
+         margin: 50px auto;
+         display: grid;
+         grid-template-columns: 1fr .2fr 1fr;
+         grid-template-areas: 
+            "header header header"
+            "kolom-satu kosong kolom-dua";
+      }
+      .about h3{
+         text-align: center;
+         margin-bottom: 20px;
+      }
+      .about .header{
+         grid-area: header;
+      }
+      .about .kolom-satu{
+         grid-area: kolom-satu;
+      }
+      .about .kolom-dua{
+         grid-area: kolom-dua;
+      }
+   </style>
+</head>
+<body>
+   
+   <div class= "about">
+      <h3 class="header">About</h3>
+      <div class="kolom-satu">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid. Quas possimus aliquam mollitia iure architecto, pariatur commodi eligendi, eius sint fugiat laboriosam quis et nesciunt ratione, quos impedit adipisci.</p>
+      </div>
+      <div class="kolom-dua">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis, labore velit harum, nam, dignissimos suscipit aperiam quasi sint amet ea odio dolor eum. Possimus maiores expedita inventore doloribus asperiores?</p>
+      </div>
+   </div>
+   
+</body>
+</html>

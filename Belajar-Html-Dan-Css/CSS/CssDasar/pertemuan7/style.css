@@ -1,0 +1,28 @@
+/*penulisan id dengan "#"*/
+/*dibaca id "p1"yang ada didalam tag "p"*/
+p#p1{
+    color: orange;
+}
+
+/*peulisam class dengan "."*/
+/*dibaca class "p2" yang ada didalam tag "p"*/
+p.p2{
+    color: orangered;
+}
+
+/*id "sarapan" yang ada didalam tag "ul" didalamnya ada "li"*/
+ul#sarapan li{
+    color: blue;
+}
+
+/*Contoh tidak berubah*/
+/*karena id > class*/
+    /*.favorit{
+    color:red   ;
+}*/
+
+/*penyelesaiannya adalah dengan memberat kan dengan tag tsb*/
+ul#sarapan li.favorit{
+    color: red;
+}
+/*Lebih spesifik lebih baik*/

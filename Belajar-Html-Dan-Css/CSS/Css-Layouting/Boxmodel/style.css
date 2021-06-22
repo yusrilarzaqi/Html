@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(bg1.png);
+  font-family: Arial Sans-Serif;
+}
+div{
+  box-shadow: 10px 10px 5px grey;
+}
+.header{
+  height: auto;
+  background-color: lightgrey;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-size:20px;
+  padding-top: 17px;
+}
+.main{
+    width: 500px;
+    height: 350px;
+    background-color: lightsalmon;
+    padding: 20px 50px 20px;
+    margin: 50px auto;
+    border: black solid 2px;
+    overflow: auto;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.main h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+}
+.main p{
+    text-indent: 20px;
+    text-align: left;
+}

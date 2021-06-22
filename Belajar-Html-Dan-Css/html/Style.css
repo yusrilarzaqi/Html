@@ -1,0 +1,17 @@
+h1{
+  font-family: Arial, Verdana, Sans-Serif ;
+  font-size: 24;
+  text-align: center;
+}
+ol{
+  line-height: 15px;
+  color: black;
+  
+}
+body{
+  background: #9aebff url(images/bg1.png) repeat-x ;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
